@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-final-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jou2323/final-test-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Jou2323/final-test-node#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4",
+    "node-fetch": "^2.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
